@@ -35,7 +35,7 @@ export class BookService {
 
       const data = Object.assign(book , {user:user._id})
 
-      const response = await this.bookModel.create(book )
+      const response = await this.bookModel.create(book)
       return response;
     }
 
